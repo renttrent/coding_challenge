@@ -70,7 +70,7 @@ export default function App(): ReactElement {
                 return <Redirect to="/" />;
               }}
             />
-            <Route exact path="/startups" component={} />
+            <Route exact path="/startups" component={StartupList} />
           </Switch>
         </main>
       </div>

@@ -13,7 +13,7 @@ describe("Startup List", () => {
     ).should("be.visible");
     cy.contains("Founded: 2002").should("be.visible");
     cy.contains("<10 Employees").should("be.visible");
-    cy.contains("$ 102 Mio.").should("be.visible");
+    cy.contains("102 $").should("be.visible");
     cy.contains("Series A").should("be.visible");
   });
 });
